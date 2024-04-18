@@ -23,10 +23,16 @@ def decode_text(encoded_text, mapping):
     
     return ''.join(decoded_text)
 
-text_to_encode = "Hello World!"
+# Prompt user for text to encode
+text_to_encode = input("Enter text to encode: ")
+
+# Encode the input text
 encoded_text = encode_text(text_to_encode, custom_mapping)
 print("Encoded Text:", encoded_text)
 
-encoded_text_to_decode = "140690915024310204310204710492540263410578710492640125310204407613920704"
+# Prompt user for encoded text to decode
+encoded_text_to_decode = input("Enter encoded text to decode: ")
+
+# Decode the input encoded text
 decoded_text = decode_text(encoded_text_to_decode, custom_mapping)
 print("Decoded Text:", decoded_text)
