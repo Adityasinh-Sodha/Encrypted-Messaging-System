@@ -129,7 +129,7 @@ text_to_encode = "Hello World!"
 
 encoded_text = encode_text(text_to_encode, custom_mapping)
 print("Encoded Text:", encoded_text)
-
+#Thank you for using my code. If you found it helpful, please consider starring this repository. Your support is greatly appreciated!
 # Encoded text to decode; Decode The Encoded Text Here!
 encoded_text_to_decode = "140690915024310204310204710492540263410578710492640125310204407613920704"
 decoded_text = decode_text(encoded_text_to_decode, custom_mapping)
