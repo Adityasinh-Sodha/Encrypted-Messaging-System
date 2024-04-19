@@ -100,3 +100,4 @@ custom_mapping = {
     '"': '928603',
     '\\': '157309',
 }
+# this is the main file for key mapping    # you can add more mapping as needed 
