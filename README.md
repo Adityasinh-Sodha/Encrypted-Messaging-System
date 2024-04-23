@@ -14,7 +14,7 @@ git clone https://github.com/AdityaSodha/Encripted-Messaging-System
 cd Encripted-Messaging-System
 python3 EMS.py
 ```
-"" For Termux
+## For Termux
 ```bash
 apt update
 apt upgrade
