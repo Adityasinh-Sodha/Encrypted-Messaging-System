@@ -32,7 +32,9 @@ python3 EMS.py
 ## Usage
 1. Open a terminal and navigate to the project directory.
 2. Run the EMS.py with the following command:
-   ```shell python3 EMS.py
+   ```shell
+    python3 EMS.py
+   ```
 3. Follow the instructions provided in the command-line interface to encrypt or decrypt messages.
 ## Encryption Algorithm
 The encryption algorithm used in this system involves substituting each letter in the message with a corresponding code character. The exact mapping of letters to code characters is predefined and can be customized if needed.
