@@ -7,7 +7,7 @@ If you appreciate the code please follow me.
 * Encryption of messages into a custom code language
 * Decryption of encrypted messages
 * Simple command-line interface
-  (Edit Mapping.py for custom mapping)
+  (Edit Mapping.py for custom mapping) 
   
 ## Installation
 ## For linux
