@@ -1,4 +1,4 @@
-from mapping import custom_mapping
+from mapping import custom_mapping 
 
 def encode_text(text, mapping):
     encoded_chars = []
