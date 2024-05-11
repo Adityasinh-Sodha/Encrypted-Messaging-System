@@ -8,7 +8,7 @@ def encode_text(text, mapping):
         else:
             encoded_chars.append(char)  # Append the character unchanged
     return ''.join(encoded_chars)
-
+ 
 def decode_text(encoded_text, mapping):
     reverse_mapping = {value: key for key, value in mapping.items()}
     decoded_text = []
