@@ -97,7 +97,8 @@ custom_mapping = {
     '*': '895702',
     '|': '507391',
     '\\': '037641',
+    '+': '674534',
     '"': '928603',
     '\\': '157309',
 }
-#this is the main file for key mapping       #  you can add more mapping as needed 
+#This is the main file for key mapping You can add more mapping as needed 
