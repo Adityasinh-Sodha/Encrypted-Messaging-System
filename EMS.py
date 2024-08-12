@@ -30,10 +30,10 @@ def on_encode(event):
 
 def on_decode():
     try:
-        clipboard_text = root.clipboard_get().strip()  # Get text from clipboard
+        clipboard_text = root.clipboard_get().strip()  
         if clipboard_text:
             decode_entry.delete(0, tk.END)
-            decode_entry.insert(tk.END, clipboard_text)  # Paste clipboard text into the entry field
+            decode_entry.insert(tk.END, clipboard_text)  
             decoded_text = decode_text(clipboard_text, custom_mapping)
             decoded_entry.delete("1.0", tk.END)
             decoded_entry.insert(tk.END, decoded_text)
