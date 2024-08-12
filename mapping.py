@@ -95,5 +95,6 @@ custom_mapping = {
     '+': '674534',
     '"': '928603',
     '\\': '157309',
+    '`': '101010', 
 }
 #This is the main file for key mapping You can add more mapping as needed 
