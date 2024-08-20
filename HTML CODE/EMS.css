@@ -5,19 +5,21 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('image.jpg'); 
-    background-size: cover; 
-    background-position: center; 
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8);  
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     width: 80%;
     max-width: 500px;
     text-align: center;
+    backdrop-filter: blur(20px);
 }
 
 h1 {
@@ -33,6 +35,7 @@ textarea, input[type="text"] {
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid #cccccc;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 button {
