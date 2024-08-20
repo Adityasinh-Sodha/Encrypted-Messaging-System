@@ -52,4 +52,3 @@ function copyToClipboard() {
         console.error("Failed to copy text: ", err);
     });
 }
-
