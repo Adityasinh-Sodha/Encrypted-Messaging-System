@@ -18,7 +18,7 @@ apt update
 apt upgrade
 apt install git
 apt install python3
-git clone https://github.com/AdityaSodha/Encripted-Messaging-System
+git clone https://github.com/Adityasinh-Sodha/Encripted-Messaging-System
 cd Encripted-Messaging-System
 python3 EMS.py
 ```
@@ -28,7 +28,7 @@ apt update
 apt upgrade
 pkg install git
 pkg install python3
-git clone https://github.com/AdityaSodha/Encripted-Messaging-System
+git clone https://github.com/Adityasinh-Sodha/Encripted-Messaging-System
 cd Encripted-Messaging-System
 python3 EMS.py
 ```
