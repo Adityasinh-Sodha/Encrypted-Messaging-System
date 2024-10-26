@@ -9,7 +9,8 @@ If you appreciate the code please follow me.
 * Decryption of encrypted messages
 * Simple command-line interface
   (Edit Mapping.py for custom mapping) 
-* This script is in two languages python and html for more user-friendly 
+* This script is in two languages python and html for more user-friendly
+* This page is live on [Github.io](https://adityasinh-sodha.github.io/)
   
 ## Installation
 ## For linux
