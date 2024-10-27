@@ -10,7 +10,7 @@ If you appreciate the code please follow me.
 * Simple command-line interface
   (Edit Mapping.py for custom mapping) 
 * This script is in two languages python and html for more user-friendly
-* This page is live on [Github.io](https://adityasinh-sodha.github.io/Encrypted-Messaging-System/)
+* **This page is live on [Github.io](https://adityasinh-sodha.github.io/Encrypted-Messaging-System/) and [CodePen.io](https://codepen.io/Adityasinh/pen/poMzdyR)**
   
 ## Installation
 ## For linux
