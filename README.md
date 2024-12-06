@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/0460c987-68dc-4bb1-aa59-ea45ed353a88)
 # Encripted-Messaging-System(EMS)
 Created and Edited by Adityasinh.
 This content is for educational purposes only I did not take any responsibilitys about what you are doing with this script,
