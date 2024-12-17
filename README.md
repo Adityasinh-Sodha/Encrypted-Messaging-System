@@ -43,5 +43,7 @@ python3 EMS.py
 The encryption algorithm used in this system involves substituting each letter in the message with a corresponding code character. The exact mapping of letters to code characters is predefined and can be customized if needed.
 ## License
 Distributed under the MIT License. See LICENSE for more information.
-## Contact
-Email adityasodha@yahoo.com or work.adityasodha@gmail.com
+
+
+## Author
+Developed by **Adityasinh**.
