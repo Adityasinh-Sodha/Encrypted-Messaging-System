@@ -3,19 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaxEdit</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/github-dark.min.css">
-    <link rel="stylesheet" href="styles/prism.min.css">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
-    <script src="scripts/highlight.min.js"></script>
-    <script src="scripts/prism.min.js"></script>
-    <script src="scripts/prism-markdown.min.js"></script>
-    <script src="scripts/marked.min.js"></script>
-    <script src="scripts/purify.min.js"></script>
-
+    <title>EMS</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body class="dark-blue-theme">
+<body>
+
 <div class="top-toolbar">
     <div class="toolbar-left">
         <a href="https://bento.me/adityasinh" target="_blank">
@@ -34,61 +26,31 @@
             <img src="assets/codepen-mark-white.png" alt="Codepen Logo" class="toolbar-logo">
         </a>
     </div>
-
 </div>
 
-   <div class="editor-container">
-    <div class="drag-handle"></div>
-    <div id="markdown-input" contenteditable="true" placeholder="Write your Markdown here..."></div>
-    <div class="divider"></div>
-    <div id="preview">
-            <button class="close-btn">&times;</button>
-</div>
 
-</div>
-
-<div id="maxedit-logo">
-    <img src="assets/maxedit.ico" alt="Project Logo">
-    <div class="logo-name">MaxEdit</div>
-</div>
-
-<div id="setting-logo">
-    <img src="assets/setting.svg" alt="Settings Icon">
-    <div class="logo-name">Settings</div>
-</div>
-
-<div id="settings-menu" class="hidden">
-   <div class="button-row">
-    <button id="copy-btn" class="html-btn">Copy HTML</button>
-   
-</div>
-
-    <div id="theme-selector">
-        <div class="theme-option">
-            <img src="assets/darkblue.png" alt="Dark Blue Theme" class="theme-preview">
-            <label>
-                <input type="radio" name="theme" value="dark-blue-theme">
-                Dark Blue
-            </label>
+    
+    <div class="container">
+        <h1>Encrypted-Messaging-System</h1>
+        <div>
+            <label for="encode-text">Enter text to encode:</label><br>
+            <textarea id="encode-text" rows="5" cols="50"></textarea>
         </div>
-        <div class="theme-option">
-            <img src="assets/white.png" alt="White Theme" class="theme-preview">
-            <label>
-                <input type="radio" name="theme" value="default">
-                White
-            </label>
+        <div>
+            <label for="encoded-text">Encoded Text:</label><br>
+            <input type="text" id="encoded-text" readonly>
+            <button onclick="copyToClipboard()">Copy</button>
         </div>
-        <div class="theme-option">
-            <img src="assets/dark.png" alt="Dark Theme" class="theme-preview">
-            <label>
-                <input type="radio" name="theme" value="dark-theme">
-                Dark
-            </label>
+        <div>
+            <label for="decode-text">Enter encoded text to decode:</label><br>
+            <input type="text" id="decode-text">
+            <button onclick="decodeTextInput()">Decode</button>
+        </div>
+        <div>
+            <label for="decoded-text">Decoded Text:</label><br>
+            <textarea id="decoded-text" rows="5" cols="50"></textarea>
         </div>
     </div>
-
-    <div id="word-count">Word Count: 0</div>
-</div>
-    <script src="scripts/script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
